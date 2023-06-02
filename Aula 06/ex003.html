@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Mais um dia para amar!</p>
+    <script>
+        var n1 = window.prompt('Digite um número: ') //'prompt' sempre retorna string
+        var n2 = window.prompt('Digite outro número: ') // retorna string
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s) //retorna concatenação
+        window.alert('ERRRRRO!')
+        //(number + number) = retorna adição
+        //(string + string) = retorna concateação
+        // A SOLuÇÃO È DETERMINAR O TIPO DE DADO COM CONFORME OS SEGUINTES COMANDOS: Number.parseInt(n), Number.parseFloat(n) ou somente Number(n).
+        s = Number(n1) + Number(n2)
+        window.alert('A resposta que eu queria era ' + s + ', para isso precisei determinar "Number(n)" sobre as variáveis capturadas pelo "prompt".')
+        // Number para String também é uma transformação necessária. Para tanto os comandos são: 'String(n)' ou n.toString().
+        // A forma mais atual e simples de formatar strings é utilizando '`'(crase) no lugar das '""'(aspas) e ${}. Chama-se "template string".
+
+    </script>
+</body>
+</html>
