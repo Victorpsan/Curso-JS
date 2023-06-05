@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro ao DOM</title>
+    <style>
+        body {
+            background-color: burlywood;
+        font: normal 20pt helvetica;
+    }
+    </style>
+    
+       
+</head>
+<body>
+    <h1>Vamos à prática!</h1>
+    <p>Aprendendo a usar.</p>
+    <p>O que podemos fazer com isso?</p>
+    <div id="msg">E agora?</div>
+    <div id='test'>Teste de seleção.</div>
+    <script>
+       //window.document.write(window.document.URL)
+       var p1 = window.document.getElementsByTagName('p')[0] // []-os colchetes determinam qual elemento será pego quando o comando 'getElements' estiver declarado no plural.
+       window.document.write(`No primeiro parágrafo temos o seguinte: ${p1.innerText}`)
+       p1.style.color = 'blue' 
+       window.document.getElementById('msg').style.color = 'green'
+       var d = window.document.querySelector('div#test')
+       d.style.color = 'grey'
+       //querySelector é a forma mais moderna de seleção.
+
+
+
+
+    </script>
+</body>
+</html>
