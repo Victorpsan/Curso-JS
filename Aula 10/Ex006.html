@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area{
+            background-color: green;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        div#botão{
+            margin-top: 20px;
+            background-color: blue;
+            font-size: 20pt;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id='area' onclick='clicar()' onmouseenter="entrar()" onmouseout="sair()"> 
+        Interaja...
+    </div> <!--ação é chamada no HTML e configurada no script-->
+
+    <div id="botão">
+        Interaja...
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area') 
+            //variável 'a' recebe a <div> pela identificação (id='area')  faz a ligação HTML/JavaScript
+        
+        var b = window.document.getElementById('botão')
+        b.addEventListener('click', clicar)
+        b.addEventListener('mouseenter', entrar)
+        b.addEventListener('mouseout', sair) //outra maneira de fazer a ligação HTML/JavaScript - mantem o HTML mais limpo!
+        
+        
+        function clicar() {
+            a.innerText = 'ClicoL!' 
+            a.style.background = 'red'
+            //determina a ação
+            b.innerText = 'ClicoL!'
+            b.style.background = 'purple'
+        }
+        function entrar() {
+            a.innerText = 'EntroL!'
+            b.innerText = 'EntroL!'
+        }
+        function sair() {
+            a.innerText = 'Sail!'
+            a.style.background = 'green'
+            b.innerText = 'SaiL!'
+            b.style.background = 'blue'
+        }
+
+        
+    </script>
+</body>
+</html>
