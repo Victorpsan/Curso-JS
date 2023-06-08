@@ -17,3 +17,5 @@ Aula 07 - Operadores aritméticos e de atribição:
           Exemplo de aplicação para determinar variável: var x = 8 / var res = x % 8 == 0 ? 5 : 9 / res = 5.
 Aula 09 - Introdução ao DOM: Formas de selecionar elementos.
           Utilizando querySelector as 'divs' são representadas por '#' e as 'classes' por '.'. 
+Aula 10 - Eventos DOM: formas de ligação HTML/JavaScript para chamada de eventos.
+          Dica: utilizar "devtools" do navegador para identificar possíveis erros.
