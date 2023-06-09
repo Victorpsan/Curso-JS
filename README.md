@@ -1,5 +1,6 @@
 # Curso-JS
 Repositório das aulas do Curso em Vídeo de JavaScript para auxiliar na aprendizagem.
+Os comentários encontram-se tanto aqui, quanto dentro dos códigos dos exercícios.
 Aula 04 - Primeiros comandos
 Aula 06 - Tratamento de dados: formatação.
 Aula 07 - Operadores aritméticos e de atribição: 
