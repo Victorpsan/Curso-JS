@@ -19,3 +19,5 @@ Aula 09 - Introdução ao DOM: Formas de selecionar elementos.
           Utilizando querySelector as 'divs' são representadas por '#' e as 'classes' por '.'. 
 Aula 10 - Eventos DOM: formas de ligação HTML/JavaScript para chamada de eventos.
           Dica: utilizar "devtools" do navegador para identificar possíveis erros.
+Aula 11 - Condições: Atenção para as formas de capturar os elementos HTML (NO CASO DO EXERCÍCIO 11, NÃO FUNCIONOU COM O COMANDO ".querySelector", SOMENTE COM ".getElementById")
+          Atenção também à necessidade de determinar o tipo de dado para certos elementos de entrada (inputs).
