@@ -22,4 +22,7 @@ Aula 10 - Eventos DOM: formas de ligação HTML/JavaScript para chamada de event
           Dica: utilizar "devtools" do navegador para identificar possíveis erros.
 Aula 11 - Condições: Atenção para as formas de capturar os elementos HTML (NO CASO DO EXERCÍCIO 11, NÃO FUNCIONOU COM O COMANDO ".querySelector", SOMENTE COM ".getElementById")
           Atenção também à necessidade de determinar o tipo de dado para certos elementos de entrada (inputs).
-Aula 12 - Exercícios
+Aula 12 - Exercícios: Comentários no código dos exercícios.
+Aula 13 e 14 - Estruturas de repetição e controle: while(){}; do{...} while(); for(start; teste; incremento) e DEBUG!
+          Exercícios: Comentários nos códigos. 
+          DEBUG: Com ele é possível monitorar a execução do código linha/linha para identificar possíveis erros.
