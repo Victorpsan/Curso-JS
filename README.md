@@ -27,3 +27,4 @@ Aula 13 e 14 - Estruturas de repetição e controle: while(){}; do{...} while();
           Exercícios: Comentários nos códigos. 
           DEBUG: Com ele é possível monitorar a execução do código linha/linha para identificar possíveis erros.
           Exercício 016: Contador; e Exercício 017: Tabuada.
+Aula 15 - Variáveis compostas e vetores: comentários nos códigos.
