@@ -1,4 +1,4 @@
-# Curso-JS
+# Curso Básico JavaScript
 Repositório das aulas do Curso em Vídeo de JavaScript para auxiliar na aprendizagem.
 Os comentários encontram-se tanto aqui, quanto dentro dos códigos dos exercícios.
 Aula 04 - Primeiros comandos
