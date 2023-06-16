@@ -29,3 +29,4 @@ Aula 13 e 14 - Estruturas de repetição e controle: while(){}; do{...} while();
           Exercício 016: Contador; e Exercício 017: Tabuada.
 Aula 15 - Variáveis compostas e vetores: comentários nos códigos.
 Aula 16 - Funções: comentários nos códigos
+Aula 17 - Próximos passos: Objeto
